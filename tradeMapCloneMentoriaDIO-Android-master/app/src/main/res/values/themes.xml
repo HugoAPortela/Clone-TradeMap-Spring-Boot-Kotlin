@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Theme.TradeMapCloneDIO" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+		<!-- Primary brand color. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryVariant">@color/colorAccent</item>
+		<item name="colorOnPrimary">@color/white</item>
+		<!-- Secondary brand color. -->
+	</style>
+
+	<style name="Theme.TradeMapCloneDIO.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="Theme.TradeMapCloneDIO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+	<style name="Theme.TradeMapCloneDIO.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
